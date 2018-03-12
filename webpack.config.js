@@ -4,6 +4,7 @@ const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
+    mode: process.env.NODE_ENV,
     entry: './src',
     resolve: {
         modules: ['node_modules'],

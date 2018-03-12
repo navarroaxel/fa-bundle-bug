@@ -4,7 +4,7 @@ import {faCoffee} from '@fortawesome/fontawesome-free-solid';
 
 const App = () => (
     <div>
-        <FontAwesomeIcon icon={faCoffee}/> hi!
+        <FontAwesomeIcon icon={faCoffee}/> Hi!
     </div>
 );
 
